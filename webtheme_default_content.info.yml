@@ -1,0 +1,9 @@
+name: Webtheme Default Content
+type: module
+description: 'Add default content for menu links and custom block content'
+package: Webship
+core_version_requirement: ^10
+dependencies:
+  - token_filter:token_filter
+  - default_content:default_content
+  - link_attributes:link_attributes
