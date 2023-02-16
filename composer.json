@@ -1,0 +1,28 @@
+{
+  "name": "drupal/webtheme_default_content",
+  "description": "Webthem Default Content.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Webship",
+      "homepage": "http://webship.org",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/webtheme_default_content",
+    "source": "http://cgit.drupalcode.org/webtheme_default_content"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "drupal/core": "~10.0",
+    "drupal/webtheme": "~10.0"
+  }
+}
