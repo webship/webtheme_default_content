@@ -22,7 +22,8 @@
     }
   },
   "require": {
-    "drupal/core": "~9.0 || ~10.0",
+    "drupal/core": "~10.0",
+    "drupal/webtheme": "10.0.x-dev",
     "drupal/token_filter": "~2.0",
     "drupal/default_content": "~2.0",
     "drupal/link_attributes": "~1.0"
