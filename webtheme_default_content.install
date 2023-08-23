@@ -22,7 +22,7 @@ function webtheme_default_content_install() {
         'status' => TRUE,
         'weight' => 0,
         'settings' => ['replace_empty' => '1'],
-        ];
+      ];
       $basic_html->set('filters', $basic_html_filters)->save(TRUE);
     }
   }
@@ -39,7 +39,7 @@ function webtheme_default_content_install() {
         'status' => TRUE,
         'weight' => 0,
         'settings' => ['replace_empty' => '1'],
-        ];
+      ];
       $full_html->set('filters', $full_html_filters)->save(TRUE);
     }
   }
@@ -56,7 +56,7 @@ function webtheme_default_content_install() {
         'status' => TRUE,
         'weight' => 0,
         'settings' => ['replace_empty' => '1'],
-        ];
+      ];
       $restricted_html->set('filters', $restricted_html_filters)->save(TRUE);
     }
   }
