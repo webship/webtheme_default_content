@@ -1,13 +1,13 @@
 {
   "name": "drupal/webtheme_default_content",
-  "description": "Webthem Default Content.",
+  "description": "Add default content for menu links and custom block content",
   "type": "drupal-module",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "authors": [
     {
       "name": "Webship",
-      "homepage": "http://webship.org",
+      "homepage": "http://webship.co",
       "role": "Maintainer"
     }
   ],
@@ -22,9 +22,10 @@
     }
   },
   "require": {
-    "drupal/core": "~10.1.0",
-    "drupal/token_filter": "~2.0",
+    "drupal/core": "~10.2.0",
+    "drupal/webpatches": "~10.0",
+    "drupal/token_filter": "~2.1.0",
     "drupal/default_content": "~2.0",
-    "drupal/link_attributes": "~1.0"
+    "drupal/link_attributes": "~2.1.0"
   }
 }
