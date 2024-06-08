@@ -3,5 +3,5 @@ status: true
 dependencies: {  }
 id: social-media-menu
 label: 'Social media menu'
-description: ''
+description: 'List of social media links'
 locked: false

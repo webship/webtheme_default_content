@@ -14,7 +14,7 @@ use Drupal\Core\Recipe\RecipeRunner;
 function webtheme_default_content_install() {
 
   // Process the default Webtheme Default Content recipe.
-  RecipeRunner::processRecipe(Recipe::createFromDirectory(__DIR__));
+  RecipeRunner::processRecipe(Recipe::createFromDirectory(Drupal::service('module_handler')->getModule('webtheme_default_content')->getPath()));
 
   $basic_html = \Drupal::configFactory()->getEditable('filter.format.basic_html');
 
