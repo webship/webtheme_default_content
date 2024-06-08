@@ -4,5 +4,7 @@ description: Add default content for menu links and custom block content
 package: Webship
 core_version_requirement: ~10.3.0
 dependencies:
+  - drupal:block
+  - drupal:block_content
   - token_filter:token_filter
   - link_attributes:link_attributes
