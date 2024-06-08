@@ -1,0 +1,11 @@
+name: Webtheme Default Content Recipe
+description: A recipe to manage default webtheme content.
+type: install
+install:
+  - token_filter
+  - link_attributes
+config:
+  import:
+    webtheme_default_content:
+      - system.menu.social-media-menu
+content: {}

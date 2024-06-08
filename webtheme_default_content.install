@@ -5,10 +5,16 @@
  * Contains install and update for Webtheme Default Content module.
  */
 
+use Drupal\Core\Recipe\Recipe;
+use Drupal\Core\Recipe\RecipeRunner;
+
 /**
  * Implements hook_install().
  */
 function webtheme_default_content_install() {
+
+  // Process the default Webtheme Default Content recipe.
+  RecipeRunner::processRecipe(Recipe::createFromDirectory(__DIR__));
 
   $basic_html = \Drupal::configFactory()->getEditable('filter.format.basic_html');
 
