@@ -8,4 +8,3 @@ config:
   import:
     webtheme_default_content:
       - system.menu.social-media-menu
-content: {}
