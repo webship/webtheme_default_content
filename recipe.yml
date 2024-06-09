@@ -8,5 +8,8 @@ install:
   - link_attributes
 config:
   import:
-    webtheme_default_content:
-      - system.menu.social-media-menu
+    block: '*'
+    block_content: '*'
+    token_filter: '*'
+    link_attributes: '*'
+    webtheme_default_content: '*'
