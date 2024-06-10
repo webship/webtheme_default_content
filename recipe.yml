@@ -9,7 +9,6 @@ install:
   - menu_link_content
   - block_content
   - editor
-  - menu_link_content
   - token_filter
   - link_attributes
 config:
@@ -21,6 +20,5 @@ config:
     menu_link_content: '*'
     block_content: '*'
     editor: '*'
-    menu_link_content: '*'
     token_filter: '*'
     link_attributes: '*'
