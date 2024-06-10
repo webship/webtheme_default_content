@@ -2,12 +2,14 @@ name: Webtheme Default Content Recipe
 description: A recipe to manage default webtheme content.
 type: install
 install:
+  - menu_link_content
   - block
   - block_content
   - token_filter
   - link_attributes
 config:
   import:
+    menu_link_content: '*'
     block: '*'
     block_content: '*'
     token_filter: '*'
