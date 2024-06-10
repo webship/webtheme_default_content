@@ -2,16 +2,25 @@ name: Webtheme Default Content Recipe
 description: A recipe to manage default webtheme content.
 type: install
 install:
-  - menu_link_content
+  - node
   - block
+  - ckeditor5
+  - config
+  - menu_link_content
   - block_content
+  - editor
+  - menu_link_content
   - token_filter
   - link_attributes
 config:
   import:
-    menu_link_content: '*'
+    node: '*'
     block: '*'
+    ckeditor5: '*'
+    config: '*'
+    menu_link_content: '*'
     block_content: '*'
+    editor: '*'
+    menu_link_content: '*'
     token_filter: '*'
     link_attributes: '*'
-    webtheme_default_content: '*'
